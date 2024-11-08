@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f5efe4; /* Marró molt clar */
+  }
+  
+  header {
+    text-align: center;
+    padding: 1em;
+    background-color: #8b4513; /* Marró fosc */
+    color: #fff;
+  }
+  
+  header .profile-photo img {
+    border-radius: 50%; /* Forma circular */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #8b4513; /* Marc circular */
+    margin-bottom: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffd700; /* Color daurat per ressaltar en passar el ratolí */
+  }
+  
+  section {
+    margin: 2em auto;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 320px;
+    perspective: 1000px;
+    margin-bottom: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #a0522d; /* Marró més clar */
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    font-weight: bold; /* Títols en negreta */
+    text-transform: uppercase;
+  }
+  
+  p, li {
+    margin: 8px 0;
+    line-height: 1.6;
+    font-size: 1.1em; /* Mida de lletra més gran */
+  }
+  
+  ul {
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: left; /* Manté els elements alineats */
+  }
+  
+  .contact-details {
+    text-align: center;
+  }
+  
+  .language-icon {
+    width: 30px; /* Icones més grans */
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .language-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
