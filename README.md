@@ -4,6 +4,9 @@ FIGMA DESIGN:
 
 https://www.figma.com/design/HoKwTMfMrA2XXAfajDyKpT/Untitled-(Copy)?node-id=0-1&t=yHH6Wr7qos9VzMGm-1
 
+CV WEBSITE:
+
+http://127.0.0.1:5500/index.html
 
 PROJECT ANALYSIS, INFORMATION ARCHITECTURE: 
 
