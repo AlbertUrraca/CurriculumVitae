@@ -1,4 +1,7 @@
 # CurriculumVitae
+
+FIGMA DESIGN:
+
 https://www.figma.com/design/HoKwTMfMrA2XXAfajDyKpT/Untitled-(Copy)?node-id=0-1&t=yHH6Wr7qos9VzMGm-1
 
 Project analysis, Information architecture: describe using around 200 words (minimum) how you have distributed the information of the page
